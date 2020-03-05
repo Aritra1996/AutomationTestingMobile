@@ -42,7 +42,7 @@ public class OrderItem {
 		try {
 			//Give IP of the internet
 			// Set Properties
-			System.out.println("Test Begis");
+			System.out.println("Test Begins");
 			gm = new GeneralMethods();
 			long starttime = System.currentTimeMillis();
 			startTimeString = String.valueOf(starttime);
