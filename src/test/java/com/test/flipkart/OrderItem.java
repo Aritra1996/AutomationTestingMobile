@@ -41,6 +41,7 @@ public class OrderItem {
 	public void beforeclass() {
 		try {
 			// Set Properties
+			System.out.println("Test Begin");
 			gm = new GeneralMethods();
 			long starttime = System.currentTimeMillis();
 			startTimeString = String.valueOf(starttime);
