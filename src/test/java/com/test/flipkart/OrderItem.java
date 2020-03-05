@@ -40,6 +40,7 @@ public class OrderItem {
 	@BeforeClass
 	public void beforeclass() {
 		try {
+			//Give IP of the internet
 			// Set Properties
 			System.out.println("Test Begins");
 			gm = new GeneralMethods();
@@ -55,6 +56,7 @@ public class OrderItem {
 			capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.flipkart.android.SplashActivity");
 			capabilities.setCapability(MobileCapabilityType.UDID, "149e059d");
 			
+			//Give IP of the internet
 			driver = new AndroidDriver<>(new URL("http://192.168.43.228:4723/wd/hub"), capabilities);
 		} catch (Exception e) {
 			test.log(LogStatus.FAIL, e);
